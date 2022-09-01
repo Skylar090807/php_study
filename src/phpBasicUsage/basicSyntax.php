@@ -1,4 +1,6 @@
-<h3>basic syntax</h3>
+<h2>basic syntax</h2>
+
+<hr>
 오늘의 날짜 :
 <?php echo date('Y-m-d H:i:s') ?>
 <hr>
@@ -82,3 +84,47 @@ myTest5();
 echo "<br>";
 myTest5();
 ?>
+<hr>
+
+<h3>The PHP echo Statement</h3>
+<?php
+$text = 'with multiple parameters.';
+echo "<h4>text with the echo statement</h4>";
+echo "Hello world!<br>";
+echo "I'm about to learn PHP!<br>";
+echo "This ", "string ", "was ", "made ", $text;
+?>
+<br>
+<?php
+$txt1 = "text and variables with the echo statement";
+$txt2 = " = ";
+$x = 5;
+$y = 4;
+
+echo "<h4>" . $txt1 . "</h4>";
+echo "variable x + variable y" . $txt2 . "<br>";
+echo $x + $y;
+?>
+<hr>
+
+<h3>The PHP print Statement</h3>
+<?php
+$txt = 'with multiple parameters.';
+print "<h4>text with the print statement</h4>";
+print "Hello world!<br>";
+print "I'm about to learn PHP!<br>";
+// print "This ", "string ", "was ", "made ", $txt; //ouputs syntax error
+print "This ". "string ". "was ". "made ". $txt; 
+?>
+<br>
+<?php
+$txt1 = "text and variables with the print statement";
+$txt2 = " = ";
+$x = 5;
+$y = 4;
+
+print "<h4>" . $txt1 . "</h4>";
+print "variable x + variable y" . $txt2 . "<br>";
+print $x + $y;
+?>
+<hr>

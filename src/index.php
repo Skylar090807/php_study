@@ -13,8 +13,9 @@
     echo "<h1>PHP STUDY!</h1><br/>";
   ?>
   <?php 
-    include_once('./01/basicSyntax.php');
-    // include_once('./01/Variables.php');
+    // include_once('./phpBasicUsage/basicSyntax.php');
+    include_once('./phpBasicUsage/dataType.php');
+    include_once('./phpBasicUsage/stringFunction.php');
   ?>
 </body>
 
