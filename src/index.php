@@ -14,8 +14,13 @@
   ?>
   <?php 
     // include_once('./phpBasicUsage/basicSyntax.php');
-    include_once('./phpBasicUsage/dataType.php');
-    include_once('./phpBasicUsage/stringFunction.php');
+    // include_once('./phpBasicUsage/dataType.php');
+    // include_once('./phpBasicUsage/stringFunction.php');
+    // include_once('./form/01-form_test.php');
+    // include_once('./form/02-formValidation.php');
+    // include_once('./form/03-form_required.php');
+    // include_once('./form/04-form_URL_E-mail.php');
+    include_once('./form/05-form_keep_value.php');
   ?>
 </body>
 
